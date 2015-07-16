@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295792641B133FAD0080A48D /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 295792631B133FAD0080A48D /* CellView.m */; };
 		295BEB471AA8624600CA55A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BEB461AA8624600CA55A7 /* main.m */; };
 		295BEB4A1AA8624600CA55A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BEB491AA8624600CA55A7 /* AppDelegate.m */; };
 		295BEB4D1AA8624600CA55A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BEB4C1AA8624600CA55A7 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		295BEB521AA8624600CA55A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295BEB511AA8624600CA55A7 /* Images.xcassets */; };
 		295BEB551AA8624600CA55A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 295BEB531AA8624600CA55A7 /* LaunchScreen.xib */; };
 		295BEB611AA8624600CA55A7 /* TestTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BEB601AA8624600CA55A7 /* TestTableViewTests.m */; };
+		295BEB6C1AA868E100CA55A7 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BEB6B1AA868E100CA55A7 /* HeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		295792621B133FAD0080A48D /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		295792631B133FAD0080A48D /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
 		295BEB411AA8624600CA55A7 /* TestTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		295BEB451AA8624600CA55A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295BEB461AA8624600CA55A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		295BEB5A1AA8624600CA55A7 /* TestTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		295BEB5F1AA8624600CA55A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295BEB601AA8624600CA55A7 /* TestTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewTests.m; sourceTree = "<group>"; };
+		295BEB6A1AA868E100CA55A7 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		295BEB6B1AA868E100CA55A7 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				295BEB511AA8624600CA55A7 /* Images.xcassets */,
 				295BEB531AA8624600CA55A7 /* LaunchScreen.xib */,
 				295BEB441AA8624600CA55A7 /* Supporting Files */,
+				295BEB6A1AA868E100CA55A7 /* HeaderView.h */,
+				295BEB6B1AA868E100CA55A7 /* HeaderView.m */,
+				295792621B133FAD0080A48D /* CellView.h */,
+				295792631B133FAD0080A48D /* CellView.m */,
 			);
 			path = TestTableView;
 			sourceTree = "<group>";
@@ -221,7 +231,9 @@
 			files = (
 				295BEB4D1AA8624600CA55A7 /* ViewController.m in Sources */,
 				295BEB4A1AA8624600CA55A7 /* AppDelegate.m in Sources */,
+				295792641B133FAD0080A48D /* CellView.m in Sources */,
 				295BEB471AA8624600CA55A7 /* main.m in Sources */,
+				295BEB6C1AA868E100CA55A7 /* HeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				295BEB661AA8624600CA55A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		295BEB671AA8624600CA55A7 /* Build configuration list for PBXNativeTarget "TestTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				295BEB691AA8624600CA55A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
