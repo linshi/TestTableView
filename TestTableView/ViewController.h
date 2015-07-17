@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController<UITableViewDataSource>
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+
+}
+
+@property (nonatomic,strong) UITableView *profileTableView;
 
 
 @end
